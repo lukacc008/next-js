@@ -9,7 +9,7 @@ function MeetupDetails() {
       description="This is a first meetup"
     />
   );
-}
+} 
 
 export async function getStaticPaths() {
   return {
