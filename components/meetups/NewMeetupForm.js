@@ -10,7 +10,7 @@ function NewMeetupForm(props) {
   const descriptionInputRef = useRef();
 
   function submitHandler(event) {
-    event.preventDefault(); 
+    event.preventDefault();  
 
     const enteredTitle = titleInputRef.current.value;
     const enteredImage = imageInputRef.current.value;
